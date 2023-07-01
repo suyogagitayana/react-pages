@@ -57,7 +57,11 @@ If you encounter any issues with your GitHub Pages deployment, follow these step
 
 - Wait: Deployment might take a while to go live. Wait for a few minutes and try accessing your pages again.
 
-- Check Branch Settings: Ensure that you have selected the correct branch for GitHub Pages deployment in your repository settings. Verify that the branch specified in the settings matches the branch you deployed to.
+- Check Branch Settings: Ensure that you have selected the correct branch (gh-pages) for GitHub Pages deployment in your repository settings.
+
+- Check the Repository Actions tab: Go to your repository page and click on the Actions tab. There should be workflow named "page build and deployment", if the latest workflow don't have green checkmark try canceling it and rerun the workflow.
+
+- Check GitHub Status Page: Make sure the Github actions and pages status are not down/ on maintenance.
 
 - Consult GitHub Pages Documentation: If the previous steps didn't resolve your issue, refer to the GitHub Pages documentation for further guidance.
 
